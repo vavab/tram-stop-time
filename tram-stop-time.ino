@@ -11,10 +11,10 @@
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 #define HOST "api.cts-strasbourg.eu"
-#define AUTH "Basic OWE1YzA3YmQtYTFjNC00ZDE0LThjOWItZDY2ZTM4YjJjNTBhOg=="
+#define AUTH "Basic TOKEN"
 
-const char* ssid     = "SFR_42e8";
-const char* password = "DID1LFN2TGZK";
+const char* ssid     = "ID";
+const char* password = "PASSWORD";
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
